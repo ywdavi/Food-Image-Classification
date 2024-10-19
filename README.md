@@ -38,6 +38,12 @@ To handle **class imbalance**, downsampling was applied to over-represented clas
 - **Class imbalance was addressed** using downsampling and upsampling with transformations.
 - The images were resized to **256x256 pixels**, normalized, and augmented to improve generalization.
 
+### SIFT + BoW Approach
+- **Keypoint extraction**: The SIFT algorithm was used to extract keypoints from each image, focusing on edges and textures.
+- **Clustering**: Keypoint descriptors were quantized into **visual words** using MiniBatch K-means clustering.
+- **BoW Model**: Each image was represented as a histogram of visual words, capturing the distribution of features in the image.
+- **Classification**: A traditional classifier was trained on these histograms to classify the food images into 251 categories.
+
 ### CNN Design
 - The CNN used **depthwise separable convolutions** and **Global Average Pooling (GAP)** to reduce the number of parameters.
 - The final model consisted of **983,323 parameters**, meeting the project’s constraint.
