@@ -6,7 +6,7 @@ This project compares three different techniques for food image classification o
 ## Objectives
 - **Classify food images** into one of the 251 categories using three distinct methods.
 - **Explore the effectiveness** of traditional and deep learning models in handling the complexity of food classification.
-- **Handle class imbalance** and optimize model performance within a constraint of fewer than one million parameters.
+- **Handle class imbalance** and optimize model performance within a _constraint of fewer than one million parameters_.
 
 ## The Dataset
 The iFood-2019 dataset is used for the classification task, consisting of:
