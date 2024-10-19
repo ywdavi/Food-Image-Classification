@@ -65,3 +65,7 @@ To handle **class imbalance**, downsampling was applied to over-represented clas
 ## Conclusion
 The CNN approach proved most effective for food image classification, benefiting from deep feature extraction and data augmentation. The SSL method, while less effective than CNN, demonstrated potential for further exploration with different pretext tasks. The SIFT + BoW method struggled due to the complexity of the dataset, highlighting the limitations of traditional feature extraction in fine-grained visual categorization tasks.
 
+## Acknowledgments
+The detailed methodology, results, and scientific analysis of this project are thoroughly presented in the accompanying [report](https://github.com/ywdavi/Food-Image-Classification/blob/main/Report.pdf). This project was developed with the help and collaboration of **Alessio De Luca** and **Simone Vaccari**.
+
+
